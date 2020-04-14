@@ -1,23 +1,11 @@
 public class Exercise2 {
     public static void main (String[] args){
-        boolean flag = true;
-        byte b = 4;
-        char a = 'A';
-        short index = 3;
-        int i = 80;
-        float f = 4.73f;
-        long longVar = 1234567890;
-        double doubleVar = 123456789.1234567;
+        int testScore = 80;
+        double textBookCost = 498.39;
+        string studentName = "Miles Baker";
 
-        System.out.println("flag: " + flag);
-        System.out.println("byte: " + b);
-        System.out.println("char: " + a);
-        System.out.println("short: " + index);
-        System.out.println("int: " + i);
-        System.out.println("float: " + f);
-        System.out.println("long: " + longVar);
-        System.out.println("double: " + doubleVar);
-
-
+        System.out.println("Grade: " + testScore);
+        System.out.println("Your books will cost: " + textBookCost);
+        System.out.println("Student: " + studentName);
     }
 }
